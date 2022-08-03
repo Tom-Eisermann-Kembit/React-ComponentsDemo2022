@@ -1,9 +1,10 @@
 import React from 'react'
+import DeveloperList from '../components/DeveloperList';
 
 const IndexPage = () => {
   return (
-    <div>Hello from Tom</div>
+    <DeveloperList />  
   )
-}
+};
 
-export default IndexPage
+export default IndexPage;
